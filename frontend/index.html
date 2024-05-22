@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <!-- AOS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Kanit font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Email JS -->
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "qGk8sIbF2lwg_qUlN",
+      });
+   })();
+</script>
+
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navbar_container">
+        <div
+          class="moon_container"
+          data-aos="fade-down"
+          data-aos-delay="100"
+          data-aos-duration="800"
+        >
+          <img src="img/moon.png" id="moon" loading="lazy" />
+          <a class="navbar_logo">@stephinesungcalang</a>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="700" data-aos-duration="700">
+          <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+        <ul class="navbar_menu">
+          <li><a href="#home" class="navbar_links">home</a></li>
+          <li><a href="#about" class="navbar_links">about</a></li>
+          <li><a href="#skills" class="navbar_links">skills</a></li>
+          <li><a href="#experiences" class="navbar_links">experiences</a></li>
+          <li><a href="#review" class="navbar_links">review</a></li>
+          <li><a href="#contact" class="navbar_links">contact</a></li>
+          <footer id="footer">
+          <p>© Copyright</p>
+        </footer>
+        </ul>
+        
+        
+      </div>
+    </nav>
+
+    <!-- HOME CONTAINER -->
+    <section id="home">
+      <div id="content">
+        <img src="img/me.png" loading="lazy" alt="pic" id="main_img" />
+        <div class="header">
+          <p
+            id="choy"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            Hello, call me choy.
+          </p>
+          <p
+            id="sentence"
+            data-aos="fade-up"
+            data-aos-delay="1500"
+            data-aos-duration="500"
+          >
+            I <span class="span">develop</span> and
+            <span class="span">create</span> innovative web design. <br>
+          </p>
+          <div
+            class="btn"
+            data-aos="fade-up"
+            data-aos-delay="1800"
+            data-aos-duration="500"
+          >
+            <div id="icons" class="dark_mode">
+              <a href="https://github.com/GitHack7"
+                ><img class="icons" id="icons_1" src="img/github.png"
+              /></a>
+              <a href=""
+                ><img class="icons" id="icons_1" src="img/facebook.png"
+              /></a>
+              <a href="https://www.tiktok.com/@choi_121101?_t=8eIcQTpmjqb&_r=1"
+                ><img class="icons" id="icons_1" src="img/tiktok.png"
+              /></a>
+              <a href=""
+                ><img class="icons" id="icons_1" src="img/twitter.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT CONTAINER -->
+    <section class="about_container" id="about">
+      <div class="about_content">
+        <h1>about</h1>
+        <p class="about">
+          Hello! My name is Stephine G. Sungcalang, and I am a passionate web
+          developer. With a experience in HTML, CSS, Javascript and server-side scripting language. I
+          thrive on turning ideas into fully functional and visually appealing
+          websites. I would describe myself as an open and honest person
+          who doesn't believe in misleading other people and tries to be fair in
+          everything I do.
+        </p>
+      </div>
+      <div class="image_container">
+        <div class="top_row">
+          <img id="img" src="img/1.jpg" />
+          <img id="img" src="img/2.jpg" />
+        </div>
+        <div class="bottom_row">
+          <img id="img" src="img/3.jpg" />
+          <img id="img" src="img/4.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="skills_container">
+        <h1>skills</h1>
+        <div class="card">
+          <h2 class="title">Adobe Photoshop</h2>
+          <p>
+            I have advanced skills in Adobe Photoshop, specializing in photo retouching and creative compositing. I excel in color correction, skin retouching, and background manipulation using layer masks, adjustment layers, and blending modes. My abilities allow
+            me to transform ordinary photos into stunning visual masterpieces, ensuring every project exceeds client expectations.
+          </p>
+        </div>
+        <div class="card">
+          <h2 class="title">Web Development</h2>
+          <p>
+            Proficient in web development, with experience in building
+            responsive and visually appealing websites. Skilled in implementing
+            interactive features and ensuring cross-browser compatibility.
+            Capable of designing and developing user-friendly interfaces to
+            enhance the overall user experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCES -->
+    <section id="experiences">
+      <div class="experiences_container">
+        <h1>experiences</h1>
+        <div class="div">
+          <h2 class="title">First Year Adventures</h2>
+          <p>
+           My first year of college was full of new things. Adjusting to campus life and classes was exciting but hard. Meeting new friends and joining clubs made it fun and helped me become more confident and independent.
+          </p>
+        </div>
+        <div class="div">
+          <h2 class="title">IS Student </h2>
+          <p>
+            As an IS student, I learned about programming, networking, and data management. I worked on projects, like creating websites and managing databases. I also joined tech clubs, where I met others who shared my interests. The experience helped me develop practical skills and prepared me for a career in technology.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Container -->
+    <section id="review">
+      <div id="testimonials">
+        <!-- Reviews Container -->
+        <h1>Reviews</h1>
+        <div class="reviews_container">
+          <div class="post">
+            <div class="text">Thanks for rating us!</div>
+            <!-- <div class="edit">EDIT</div> -->
+          </div>
+          <div class="reviews">
+              <input type="radio" name="rate" id="rate-5" />
+              <label for="rate-5" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-4" />
+              <label for="rate-4" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-3" />
+              <label for="rate-3" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-2" />
+              <label for="rate-2" class="fas fa-star"></label>
+              <input type="radio" name="rate" id="rate-1" />
+              <label for="rate-1" class="fas fa-star"></label>
+              <form id="commentForm" action="#">
+          
+              <header></header>
+              <div class="name">
+                <textarea cols="10" placeholder="Enter Your Name.."></textarea>
+              </div>
+              <div class="textarea">
+                <textarea
+                  cols="30"
+                  placeholder="Describe your experience.."
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Post</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- End Of Reviews Container -->
+        <!-- Testimonials heading -->
+        <h3>Comments</h3>
+        <div class="box_comments">
+          <!-- Testimonials box container -->
+          <div class="testimonial-box-container">
+            <!-- Testimonial boxes will be dynamically generated here -->
+          </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact_container">
+        <h3>Get in Touch</h3>
+       <form id="contact_form" onsubmit="return SendMail()">  <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Email..." required />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+      </div>
+  </div>
+</section>
+
+<footer class="footer_icons">
+   <div
+            class="btn"
+            data-aos="fade-up"
+            data-aos-delay="1800"
+            data-aos-duration="500"
+          >
+            <div id="icons" class="dark_mode">
+              <a href="https://github.com/GitHack7"
+                ><img class="icons" id="icons_1" src="img/github.png"
+              /></a>
+              <a href=""
+                ><img class="icons" id="icons_1" src="img/facebook.png"
+              /></a>
+              <a href="https://www.tiktok.com/@choi_121101?_t=8eIcQTpmjqb&_r=1"
+                ><img class="icons" id="icons_1" src="img/tiktok.png"
+              /></a>
+              <a href=""
+                ><img class="icons" id="icons_1" src="img/twitter.png"
+              /></a>
+            </div>
+          </div>
+          <p>Created by: Stephine Sungcalang</p>
+</footer>
+
+  <script>
+    function SendMail() {
+  // Get email and message from input fields
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  // Validate email format (optional)
+  // You can use a regular expression to validate email format
+
+  // Create the parameters object
+  var params = {
+    email: email,
+    message: message
+  }
+
+  // Send email using EmailJS
+  emailjs.send("service_y2fxx4g", "template_vsvloem", params)
+    .then(function(response) {
+      alert("Success! Email sent with status: " + response.status);
+    })
+    .catch(function(error) {
+      alert("Error sending email: " + error);
+    });
+}
+
+</script>
+
+
+
+    <script src="/script.js"></script>
+    <script>
+      // listner for reviews
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const reviews = document.querySelector(".reviews");
+
+        const commentForm = document.getElementById("commentForm");
+        const commentTextarea = document.querySelector(".textarea textarea");
+        const nameArea = document.querySelector(".name textarea");
+
+        const starLabels = document.querySelectorAll(".reviews label");
+
+        let selectedStar = 0;
+
+        starLabels.forEach((label) => {
+          label.addEventListener("click", () => {
+            selectedStar = parseInt(label.getAttribute("for").split("-")[1]);
+          });
+        });
+
+        commentForm.addEventListener("submit", (event) => {
+          event.preventDefault();
+          const comment = commentTextarea.value;
+          const name = nameArea.value;
+          console.log("Star Rating:", selectedStar);
+          console.log("Comment:", comment);
+          console.log("Name:", name);
+
+          const formData = {
+            rating: selectedStar,
+            comment: comment,
+            name: name,
+          };
+
+          fetch("/data", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          })
+            .then((response) => response.text())
+            .then((data) => {
+              console.log(data);
+              alert("Review submitted successfully!");
+
+              window.location.reload();
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              alert("An error occurred. Please try again later.");
+            });
+
+          reviews.style.display = "none";
+          post.style.display = "block";
+        });
+      });
+
+      window.onload = async () => {
+        try {
+          const response = await fetch("/data");
+          const data = await response.json();
+
+          if (response.ok) {
+            const testimonialBoxContainer = document.querySelector(
+              ".testimonial-box-container"
+            );
+
+            data.forEach((item) => {
+              const testimonialBox = document.createElement("div");
+              testimonialBox.classList.add("testimonial-box");
+
+              const boxTop = document.createElement("div");
+              boxTop.classList.add("box-top");
+
+              // Profile Section
+              const profileDiv = document.createElement("div");
+              profileDiv.classList.add("profile");
+
+              const profileImgDiv = document.createElement("div");
+              profileImgDiv.classList.add("profile-img");
+
+              const profileImg = document.createElement("img");
+              profileImg.src = item.profileImgUr; // Assuming each data item has a profile image URL property
+              profileImgDiv.appendChild(profileImg);
+
+              const nameUserDiv = document.createElement("div");
+              nameUserDiv.classList.add("name-user");
+
+              const nameStrong = document.createElement("strong");
+              nameStrong.textContent = item.name; // Assuming each data item has a name property
+              nameUserDiv.appendChild(nameStrong);
+
+              profileDiv.appendChild(profileImgDiv);
+              profileDiv.appendChild(nameUserDiv);
+
+              // Reviews Section
+              const reviewsDiv = document.createElement("div");
+              reviewsDiv.classList.add("reviews");
+
+              for (let i = 0; i < item.rating; i++) {
+                const starIcon = document.createElement("i");
+                starIcon.classList.add("fas", "fa-star");
+                reviewsDiv.appendChild(starIcon);
+              }
+
+              boxTop.appendChild(profileDiv);
+              boxTop.appendChild(reviewsDiv);
+              testimonialBox.appendChild(boxTop);
+
+              // Comments Section
+              const clientCommentDiv = document.createElement("div");
+              clientCommentDiv.classList.add("client-comment");
+
+              const commentP = document.createElement("p");
+              commentP.textContent = item.comment; // Assuming each data item has a comment property
+              clientCommentDiv.appendChild(commentP);
+
+              testimonialBox.appendChild(clientCommentDiv);
+
+              testimonialBoxContainer.appendChild(testimonialBox);
+            });
+          } else {
+            console.error("Error fetching data:", data);
+            alert("Error fetching data. Please try again later.");
+          }
+        } catch (error) {
+          console.error("Error fetching data:", error);
+          alert("Error fetching data. Please try again later.");
+        }
+      };
+    </script>
+  </body>
+</html>
