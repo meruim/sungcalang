@@ -294,7 +294,7 @@ p {
 
   .header {
     margin-top: 200px;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
     padding-left: 20px;
   }
 
@@ -784,6 +784,7 @@ section#review {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 
 div.reviews {
