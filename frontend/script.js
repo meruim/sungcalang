@@ -32,18 +32,18 @@ moon.onclick = function () {
 };
 
 // NAVBAR SCROLL UP SHOW AND SCROLL DOWN HIDE
-var prevScrollpos = window.scrollY;
-window.onscroll = function () {
-  var currentScrollPos = window.scrollY;
-  if (prevScrollpos > currentScrollPos) {
-    // Scrolling up, show the navbar
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    // Scrolling down, hide the navbar
-    document.getElementById("navbar").style.top = "-80px";
-  }
-  prevScrollpos = currentScrollPos;
-};
+// var prevScrollpos = window.scrollY;
+// window.onscroll = function () {
+//   var currentScrollPos = window.scrollY;
+//   if (prevScrollpos > currentScrollPos) {
+//     // Scrolling up, show the navbar
+//     document.getElementById("navbar").style.top = "0";
+//   } else {
+//     // Scrolling down, hide the navbar
+//     document.getElementById("navbar").style.top = "-80px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// };
 
 // Save the scroll position in the session storage before the page is reloaded
 window.onbeforeunload = function () {

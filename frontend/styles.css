@@ -21,8 +21,9 @@ body {
   position: sticky;
   transition: top 0.3s;
   z-index: 1;
-  top: 0; /*Scrolling up, show the navbar*/
+  /* top: 0; /*Scrolling up, show the navbar*/ */
   width: 100%;
+  position: fixed;
 }
 
 .navbar_container {
